@@ -1,0 +1,669 @@
+[
+  {
+    "id": 11,
+    "country_name": "Vietnam",
+    "name": "Việt Nam",
+    "image": "https://divui.com/content/images/thumbs/0002706_viet-nam.jpeg",
+    "cities": [
+      {
+        "short_name": "Côn Đảo",
+        "name": "Côn Đảo",
+        "id": 25,
+        "image": "https://divui.com/content/images/thumbs/0014704_con-dao.jpeg",
+        "divui_destination_id": 433
+      },
+      {
+        "short_name": "Phan Thiết ",
+        "name": "Phan Thiết ",
+        "id": 15,
+        "image": "https://divui.com/content/images/thumbs/0014733_phan-thiet.jpeg",
+        "divui_destination_id": 435
+      },
+      {
+        "short_name": "Huế",
+        "name": "Huế",
+        "id": 12,
+        "image": "https://divui.com/content/images/thumbs/0005165_hue.jpeg",
+        "divui_destination_id": 223
+      },
+      {
+        "short_name": "Quy Nhơn",
+        "name": "Quy Nhơn",
+        "id": 83,
+        "image": "https://divui.com/content/images/thumbs/0011858_quy-nhon.jpeg",
+        "divui_destination_id": 370
+      },
+      {
+        "short_name": "Vũng Tàu",
+        "name": "Vũng Tàu",
+        "id": 7,
+        "image": "https://divui.com/content/images/thumbs/0014777_vung-tau.jpeg",
+        "divui_destination_id": 18
+      },
+      {
+        "short_name": "Hội An",
+        "name": "Hội An",
+        "id": 16,
+        "image": "https://divui.com/content/images/thumbs/0016808_hoi-an.jpeg",
+        "divui_destination_id": 15
+      },
+      {
+        "short_name": "Đà Nẵng",
+        "name": "Đà Nẵng",
+        "id": 13,
+        "image": "https://divui.com/content/images/thumbs/0002696_da-nang.jpeg",
+        "divui_destination_id": 13
+      },
+      {
+        "short_name": "Nha Trang",
+        "name": "Nha Trang",
+        "id": 4,
+        "image": "https://divui.com/content/images/thumbs/0002694_nha-trang.jpeg",
+        "divui_destination_id": 14
+      },
+      {
+        "short_name": "Đà Lạt",
+        "name": "Đà Lạt",
+        "id": 28,
+        "image": "https://divui.com/content/images/thumbs/0002695_da-lat.jpeg",
+        "divui_destination_id": 16
+      },
+      {
+        "short_name": "Phú Quốc",
+        "name": "Phú Quốc",
+        "id": 47,
+        "image": "https://divui.com/content/images/thumbs/0011615_phu-quoc.jpeg",
+        "divui_destination_id": 31
+      },
+      {
+        "short_name": "Hồ Chí Minh",
+        "name": "Hồ Chí Minh",
+        "id": 57,
+        "image": "https://divui.com/content/images/thumbs/0002693_ho-chi-minh.jpeg",
+        "divui_destination_id": 17
+      },
+      {
+        "short_name": "Hà Nội",
+        "name": "Hà Nội",
+        "id": 58,
+        "image": "https://divui.com/content/images/thumbs/0005166_ha-noi.jpeg",
+        "divui_destination_id": 12
+      },
+      {
+        "short_name": "Sapa",
+        "name": "Sapa",
+        "id": 32,
+        "image": "https://divui.com/content/images/thumbs/0013785_sapa.jpeg",
+        "divui_destination_id": 430
+      },
+      {
+        "short_name": "Quảng Bình",
+        "name": "Quảng Bình",
+        "id": 56,
+        "image": "https://divui.com/content/images/thumbs/0005078_quang-binh.jpeg",
+        "divui_destination_id": 145
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "country_name": "Thailand",
+    "name": "Thái Lan",
+    "image": "https://divui.com/content/images/thumbs/0002698_thai-lan.jpeg",
+    "cities": [
+      {
+        "short_name": "Koh Samui",
+        "name": "Koh Samui",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0003634_koh-samui.jpeg",
+        "divui_destination_id": 174
+      },
+      {
+        "short_name": "Chiang Rai",
+        "name": "Chiang Rai",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0004211_chiang-rai.jpeg",
+        "divui_destination_id": 175
+      },
+      {
+        "short_name": "Hua Hin",
+        "name": "Hua Hin",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0004965_hua-hin.jpeg",
+        "divui_destination_id": 183
+      },
+      {
+        "short_name": "Phuket",
+        "name": "Phuket",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0002699_phuket.jpeg",
+        "divui_destination_id": 28
+      },
+      {
+        "short_name": "Bangkok",
+        "name": "Bangkok",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0002682_bangkok.jpeg",
+        "divui_destination_id": 24
+      },
+      {
+        "short_name": "Pattaya",
+        "name": "Pattaya",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0002701_pattaya.jpeg",
+        "divui_destination_id": 25
+      },
+      {
+        "short_name": "Krabi",
+        "name": "Krabi",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0002702_krabi.jpeg",
+        "divui_destination_id": 30
+      },
+      {
+        "short_name": "Chiang Mai",
+        "name": "Chiang Mai",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0002700_chiang-mai.jpeg",
+        "divui_destination_id": 29
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "country_name": "Singapore",
+    "name": "Singapore",
+    "image": "https://divui.com/content/images/thumbs/0002703_singapore.jpeg",
+    "cities": [
+      {
+        "short_name": "Singapore",
+        "name": "Singapore",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0012127_singapore.jpeg",
+        "divui_destination_id": 26
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "country_name": "Malaysia",
+    "name": "Malaysia",
+    "image": "https://divui.com/content/images/thumbs/0003374_malaysia.jpeg",
+    "cities": [
+      {
+        "short_name": "Penang",
+        "name": "Penang",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0003408_penang.jpeg",
+        "divui_destination_id": 148
+      },
+      {
+        "short_name": "Langkawi",
+        "name": "Langkawi",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0003409_langkawi.jpeg",
+        "divui_destination_id": 149
+      },
+      {
+        "short_name": "Kuala Lumpur",
+        "name": "Kuala Lumpur",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0003373_kuala-lumpur.jpeg",
+        "divui_destination_id": 147
+      },
+      {
+        "short_name": "Kota Kinabalu",
+        "name": "Kota Kinabalu",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0016882_kota-kinabalu.jpeg",
+        "divui_destination_id": 444
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "country_name": "Hong Kong",
+    "name": "Hong Kong",
+    "image": "https://divui.com/content/images/thumbs/0002704_hongkong.jpeg",
+    "cities": [
+      {
+        "short_name": "Hong Kong",
+        "name": "Hong Kong",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0002705_hong-kong.jpeg",
+        "divui_destination_id": 33
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "country_name": "Taiwan",
+    "name": "Đài Loan",
+    "image": "https://divui.com/content/images/thumbs/0005407_dai-loan.jpeg",
+    "cities": [
+      {
+        "short_name": "Hualien",
+        "name": "Hualien",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0007909_hualien.jpeg",
+        "divui_destination_id": 324
+      },
+      {
+        "short_name": "Kaohsiung",
+        "name": "Kaohsiung",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0007891_kaohsiung.jpeg",
+        "divui_destination_id": 325
+      },
+      {
+        "short_name": "Taipei",
+        "name": "Taipei",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0005406_taipei.jpeg",
+        "divui_destination_id": 251
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "country_name": "Korea (North)",
+    "name": "Hàn Quốc",
+    "image": "https://divui.com/content/images/thumbs/0010720_han-quoc.jpeg",
+    "cities": [
+      {
+        "short_name": "Jeju",
+        "name": "Jeju",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0012608_jeju.jpeg",
+        "divui_destination_id": 362
+      },
+      {
+        "short_name": "Seoul",
+        "name": "Seoul",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0010739_seoul.jpeg",
+        "divui_destination_id": 359
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "country_name": "Japan",
+    "name": "Nhật Bản",
+    "image": "https://divui.com/content/images/thumbs/0013071_nhat-ban.jpeg",
+    "cities": [
+      {
+        "short_name": "Osaka",
+        "name": "Osaka",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0013427_osaka.jpeg",
+        "divui_destination_id": 429
+      },
+      {
+        "short_name": "Tokyo",
+        "name": "Tokyo",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0013072_tokyo.jpeg",
+        "divui_destination_id": 428
+      },
+      {
+        "short_name": "Okinawa",
+        "name": "Okinawa",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0016883_okinawa.jpeg",
+        "divui_destination_id": 445
+      },
+      {
+        "short_name": "Nagasaki",
+        "name": "Nagasaki",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 447
+      },
+      {
+        "short_name": "Hiroshima",
+        "name": "Hiroshima",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 448
+      },
+      {
+        "short_name": "Fujinomiya",
+        "name": "Fujinomiya",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 449
+      },
+      {
+        "short_name": "Kanazawa",
+        "name": "Kanazawa",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 453
+      },
+      {
+        "short_name": "Hokkaido",
+        "name": "Hokkaido",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 454
+      },
+      {
+        "short_name": "Kanagawa",
+        "name": "Kanagawa",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017557_kanagawa.jpeg",
+        "divui_destination_id": 466
+      },
+      {
+        "short_name": "Nagoya",
+        "name": "Nagoya",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017556_nagoya.jpeg",
+        "divui_destination_id": 467
+      },
+      {
+        "short_name": "Nara",
+        "name": "Nara",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017558_nara.jpeg",
+        "divui_destination_id": 468
+      },
+      {
+        "short_name": "Nikko",
+        "name": "Nikko",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017559_nikko.jpeg",
+        "divui_destination_id": 469
+      },
+      {
+        "short_name": "Fukuoka",
+        "name": "Fukuoka",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017560_fukuoka.png",
+        "divui_destination_id": 470
+      },
+      {
+        "short_name": "Kumamoto",
+        "name": "Kumamoto",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017561_kumamoto.jpeg",
+        "divui_destination_id": 471
+      },
+      {
+        "short_name": "Nagano",
+        "name": "Nagano",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017562_nagano.jpeg",
+        "divui_destination_id": 472
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "country_name": "United Arab Emirates",
+    "name": "Ả Rập",
+    "image": "https://divui.com/content/images/thumbs/0014367_a-rap.jpeg",
+    "cities": [
+      {
+        "short_name": "Dubai",
+        "name": "Dubai",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0014368_dubai.jpeg",
+        "divui_destination_id": 432
+      },
+      {
+        "short_name": "Abu Dhabi",
+        "name": "Abu Dhabi",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017550_abu-dhabi.jpeg",
+        "divui_destination_id": 460
+      },
+      {
+        "short_name": "Sharjah",
+        "name": "Sharjah",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017551_sharjah.jpeg",
+        "divui_destination_id": 459
+      },
+      {
+        "short_name": "Al Ain",
+        "name": "Al Ain",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 461
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "country_name" : "Cambodia",
+    "name": "Campuchia",
+    "image": "https://divui.com/content/images/thumbs/0004357_campuchia.jpeg",
+    "cities": [
+      {
+        "short_name": "Sihanoukville",
+        "name": "Sihanoukville",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0012061_sihanoukville.jpeg",
+        "divui_destination_id": 371
+      },
+      {
+        "short_name": "Phnom Penh",
+        "name": "Phnom Penh",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0009306_phnom-penh.jpeg",
+        "divui_destination_id": 323
+      },
+      {
+        "short_name": "Siem Reap",
+        "name": "Siem Reap",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0004359_siem-reap.jpeg",
+        "divui_destination_id": 192
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "country_name" : "Philippines",
+    "name": "Philippines",
+    "image": "https://divui.com/content/images/thumbs/0006099_philippines.jpeg",
+    "cities": [
+      {
+        "short_name": "Boracay",
+        "name": "Boracay",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0006232_boracay.jpeg",
+        "divui_destination_id": 298
+      },
+      {
+        "short_name": "Cebu",
+        "name": "Cebu",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0006233_cebu.jpeg",
+        "divui_destination_id": 299
+      },
+      {
+        "short_name": "Manila",
+        "name": "Manila",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0006234_manila.jpeg",
+        "divui_destination_id": 300
+      },
+      {
+        "short_name": "El Nido",
+        "name": "El Nido",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0006744_el-nido.jpeg",
+        "divui_destination_id": 316
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "country_name" : "Indonesia",
+    "name": "Indonesia",
+    "image": "https://divui.com/content/images/thumbs/0005866_indonesia.jpeg",
+    "cities": [
+      {
+        "short_name": "Bali",
+        "name": "Bali",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0006363_bali.jpeg",
+        "divui_destination_id": 266
+      },
+      {
+        "short_name": "Jakarta",
+        "name": "Jakarta",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0005979_jakarta.jpeg",
+        "divui_destination_id": 282
+      },
+      {
+        "short_name": "Surabaya",
+        "name": "Surabaya",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017552_surabaya.jpeg",
+        "divui_destination_id": 462
+      },
+      {
+        "short_name": "Medan",
+        "name": "Medan",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017553_medan.jpeg",
+        "divui_destination_id": 463
+      },
+      {
+        "short_name": "Yogyakarta",
+        "name": "Yogyakarta",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017554_yogyakarta.jpeg",
+        "divui_destination_id": 464
+      },
+      {
+        "short_name": "Tanjung Pinang",
+        "name": "Tanjung Pinang",
+        "id": -1,
+        "image": "",
+        "divui_destination_id": 465
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "country_name" : "china",
+    "name": "Trung Quốc",
+    "image": "",
+    "cities": [
+      {
+        "short_name": "Thượng Hải",
+        "name": "Thượng Hải",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0016853_thuong-hai.jpeg",
+        "divui_destination_id": 441
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "country_name" : "Australia",
+    "name": "Úc",
+    "image": "https://divui.com/content/images/thumbs/0017563_uc.jpeg",
+    "cities": [
+      {
+        "short_name": "Sydney",
+        "name": "Sydney",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017564_sydney.jpeg",
+        "divui_destination_id": 474
+      },
+      {
+        "short_name": "Melbourne",
+        "name": "Melbourne",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017565_melbourne.jpeg",
+        "divui_destination_id": 475
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "country_name" : "New Zealand",
+    "name": "New Zealand",
+    "image": "https://divui.com/content/images/thumbs/0017566_new-zealand.jpeg",
+    "cities": [
+      {
+        "short_name": "Auckland",
+        "name": "Auckland",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017567_auckland.jpeg",
+        "divui_destination_id": 477
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "country_name" : "United States",
+    "name": "Mỹ",
+    "image": "https://divui.com/content/images/thumbs/0017568_my.jpeg",
+    "cities": [
+      {
+        "short_name": "New York",
+        "name": "New York",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017569_new-york.jpeg",
+        "divui_destination_id": 479
+      },
+      {
+        "short_name": "Los Angeles",
+        "name": "Los Angeles",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017570_los-angeles.jpeg",
+        "divui_destination_id": 480
+      },
+      {
+        "short_name": "San Francisco",
+        "name": "San Francisco",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017571_san-francisco.jpeg",
+        "divui_destination_id": 481
+      },
+      {
+        "short_name": "Miami",
+        "name": "Miami",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017572_miami.jpeg",
+        "divui_destination_id": 482
+      },
+      {
+        "short_name": "Philadelphia",
+        "name": "Philadelphia",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017573_philadelphia.jpeg",
+        "divui_destination_id": 483
+      },
+      {
+        "short_name": "New Orleans",
+        "name": "New Orleans",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017574_new-orleans.jpeg",
+        "divui_destination_id": 484
+      },
+      {
+        "short_name": "Las Vegas",
+        "name": "Las Vegas",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017575_las-vegas.jpeg",
+        "divui_destination_id": 485
+      },
+      {
+        "short_name": "Chicago",
+        "name": "Chicago",
+        "id": -1,
+        "image": "https://divui.com/content/images/thumbs/0017576_chicago.jpeg",
+        "divui_destination_id": 486
+      }
+    ]
+  }
+]

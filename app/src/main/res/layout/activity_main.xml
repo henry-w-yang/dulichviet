@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            android:layout_gravity="top|right"
+            android:src="@drawable/banner"
+            android:scaleType="fitStart"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập địa điểm..."
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/search_button"
+            android:textStyle="bold"
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/dexuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame1"
+        android:text="Gợi ý cho bạn"
+        android:textStyle="bold"
+        android:textColor="#F04747"
+        />
+    <LinearLayout
+        android:id="@+id/line_list1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/dexuat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        >
+
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/list_dia_danh"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/line_list1"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/phobien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phổ biến"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:textColor="#000"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/recyclerview1"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/noitieng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nổi tiếng"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:textColor="#000"
+        />
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:id="@+id/recyclerview2"-->
+<!--        >-->
+
+<!--    </androidx.recyclerview.widget.RecyclerView>-->
+</LinearLayout>
+
+
+</RelativeLayout>

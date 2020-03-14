@@ -1,0 +1,1241 @@
+{
+  "SGN": [
+    {
+      "duration": 6300,
+      "position": "top",
+      "rank": 2,
+      "code": "HAN",
+      "distance": 1700000
+    },
+    {
+      "rank": 2,
+      "code": "DAD",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top"
+    },
+    {
+      "code": "BKK",
+      "distance": 1100000,
+      "duration": 4500,
+      "position": "top",
+      "rank": 1
+    },
+    {
+      "distance": 1100000,
+      "duration": 4500,
+      "position": "top",
+      "rank": 1,
+      "code": "SIN"
+    },
+    {
+      "duration": 4500,
+      "position": "top",
+      "rank": 1,
+      "code": "HUI",
+      "distance": 1100000
+    },
+    {
+      "rank": 1,
+      "code": "VII",
+      "distance": 1100000,
+      "duration": 4500,
+      "position": "top"
+    },
+    {
+      "code": "HPH",
+      "distance": 600000,
+      "duration": 2700,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "distance": 600000,
+      "duration": 2700,
+      "position": "bottom",
+      "rank": 1,
+      "code": "CXR"
+    },
+    {
+      "duration": 4500,
+      "position": "top",
+      "rank": 1,
+      "code": "PQC",
+      "distance": 1100000
+    },
+    {
+      "rank": 1,
+      "code": "DLI",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "BMV",
+      "distance": 400000,
+      "duration": 2700,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "UIH",
+      "distance": 400000,
+      "duration": 2700,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "CAH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "PXU",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "TBB",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "rank": 1,
+      "code": "THD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "VCL",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "VCS"
+    },
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "VDH",
+      "distance": 1700000
+    },
+    {
+      "rank": 1,
+      "code": "VKG",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "RGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 18600,
+      "position": "top",
+      "rank": 1,
+      "code": "ICN",
+      "distance": 5000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "KUL",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "TPE",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "HKG",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "KHH",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "REP",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "KIX",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "HKT",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "RMQ",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "TNN",
+      "distance": 2000000
+    }
+  ],
+  "HAN": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "DAD",
+      "distance": 1000000,
+      "duration": 4500,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "duration": 3600,
+      "position": "bottom",
+      "rank": 1,
+      "code": "BKK",
+      "distance": 700000
+    },
+    {
+      "rank": 1,
+      "code": "SIN",
+      "distance": 700000,
+      "duration": 3600,
+      "position": "bottom"
+    },
+    {
+      "code": "HUI",
+      "distance": 700000,
+      "duration": 3600,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "CXR",
+      "distance": 1800000,
+      "duration": 8100,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "BMV",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "DIN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "DLI"
+    },
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "PQC",
+      "distance": 1700000
+    },
+    {
+      "position": "bottom",
+      "rank": 1,
+      "code": "PXU",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "code": "TBB",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "position": "bottom",
+      "rank": 1,
+      "code": "UIH",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "VCA"
+    },
+    {
+      "code": "VCL",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "VDH",
+      "distance": 1700000
+    },
+    {
+      "position": "bottom",
+      "rank": 1,
+      "code": "VII",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "duration": 11400,
+      "position": "bottom",
+      "rank": 1,
+      "code": "REP",
+      "distance": 3000000
+    },
+    {
+      "duration": 18600,
+      "position": "bottom",
+      "rank": 1,
+      "code": "ICN",
+      "distance": 5000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "TPE",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "PUS",
+      "distance": 3000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "KUL",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "RGN",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "KHH",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "KIX",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "RMQ",
+      "distance": 2000000
+    }
+  ],
+  "DAD": [
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "top",
+      "rank": 2,
+      "code": "HAN"
+    },
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HPH",
+      "distance": 800000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "PQC",
+      "distance": 800000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "BMV",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "DLI",
+      "distance": 1700000
+    },
+    {
+      "position": "bottom",
+      "rank": 1,
+      "code": "CXR",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "PXU"
+    },
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "VII",
+      "distance": 1700000
+    },
+    {
+      "rank": 1,
+      "code": "VCA",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "rank": 1,
+      "code": "BKK",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "rank": 1,
+      "code": "ICN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    }
+  ],
+  "CXR": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "top",
+      "rank": 2,
+      "code": "HAN"
+    },
+    {
+      "code": "DAD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "HUI",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "DLI",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "HPH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "VII",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "THD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "PQC": [
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2,
+      "code": "SGN",
+      "distance": 1700000
+    },
+    {
+      "rank": 2,
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "DAD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "VCA",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "VKG",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "HPH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    }
+  ],
+  "THD": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "rank": 2,
+      "code": "BMV",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "CXR",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "VDH": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "BMV",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "VII": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "position": "bottom",
+      "rank": 2,
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "code": "DLI",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "rank": 1,
+      "code": "DAD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "BMV",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "THD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "CXR",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "PXU",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "VKG": [
+    {
+      "position": "bottom",
+      "rank": 2,
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2,
+      "code": "PQC"
+    }
+  ],
+  "HPH": [
+    {
+      "code": "SGN",
+      "distance": 1100000,
+      "duration": 4500,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "CXR",
+      "distance": 1100000,
+      "duration": 4500,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "DAD",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "BMV",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "PXU",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "PQC",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "DLI",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    }
+  ],
+  "DLI": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2,
+      "code": "HAN",
+      "distance": 1700000
+    },
+    {
+      "position": "bottom",
+      "rank": 1,
+      "code": "DAD",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "code": "VII",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "HUI",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    },
+    {
+      "code": "CXR",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HPH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1
+    }
+  ],
+  "VCA": [
+    {
+      "rank": 2,
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "PQC",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "DAD"
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 1,
+      "code": "VCS"
+    }
+  ],
+  "VCL": [
+    {
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2,
+      "code": "HAN",
+      "distance": 1700000
+    },
+    {
+      "position": "bottom",
+      "rank": 2,
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300
+    }
+  ],
+  "VCS": [
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2,
+      "code": "SGN"
+    },
+    {
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2,
+      "code": "VCA"
+    }
+  ],
+  "CAH": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "TBB": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "UIH": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "HUI": [
+    {
+      "code": "SGN",
+      "distance": 1100000,
+      "duration": 4500,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HAN",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "DLI",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    },
+    {
+      "code": "CXR",
+      "distance": 800000,
+      "duration": 3600,
+      "position": "top",
+      "rank": 2
+    }
+  ],
+  "BMV": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "VII",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "DAD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "rank": 2,
+      "code": "HPH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom"
+    },
+    {
+      "code": "THD",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "VDH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "DIN": [
+    {
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "PXU": [
+    {
+      "code": "SGN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "position": "bottom",
+      "rank": 2,
+      "code": "DAD",
+      "distance": 1700000,
+      "duration": 6300
+    },
+    {
+      "code": "HAN",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "HPH",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    },
+    {
+      "code": "VII",
+      "distance": 1700000,
+      "duration": 6300,
+      "position": "bottom",
+      "rank": 2
+    }
+  ],
+  "ICN": [
+    {
+      "duration": 18600,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 5000000
+    },
+    {
+      "duration": 18600,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 5000000
+    },
+    {
+      "duration": 18600,
+      "position": "top",
+      "rank": 1,
+      "code": "DAD",
+      "distance": 5000000
+    }
+  ],
+  "REP": [
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 2000000
+    },
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 2000000
+    }
+  ],
+  "KUL": [
+    {
+      "duration": 7800,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 2000000
+    }
+  ],
+  "RGN": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "BKK": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "DAD",
+      "distance": 3000000
+    }
+  ],
+  "SIN": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "TPE": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "HKG": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    }
+  ],
+  "PUS": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "KHH": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "KIX": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "HKT": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    }
+  ],
+  "RMQ": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    },
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "HAN",
+      "distance": 3000000
+    }
+  ],
+  "TNN": [
+    {
+      "duration": 11400,
+      "position": "top",
+      "rank": 1,
+      "code": "SGN",
+      "distance": 3000000
+    }
+  ]
+}
