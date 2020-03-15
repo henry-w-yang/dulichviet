@@ -17,3 +17,4 @@ public class DiaDanh_Modles {
         this.Ten_Diadanh = ten_Diadanh;
     }
 }
+

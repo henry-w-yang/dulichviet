@@ -33,6 +33,7 @@
     </FrameLayout>
     <TextView
         android:id="@+id/dexuat"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/frame1"
@@ -40,61 +41,30 @@
         android:textStyle="bold"
         android:textColor="#F04747"
         />
-    <LinearLayout
-        android:id="@+id/line_list1"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/dexuat"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:orientation="horizontal"
-        >
 
-
-    </LinearLayout>
-<LinearLayout
-    android:id="@+id/list_dia_danh"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/line_list1"
-    android:orientation="vertical"
-    >
     <TextView
         android:id="@+id/phobien"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Phổ biến"
-        android:textSize="20dp"
+        android:textSize="10dp"
         android:layout_gravity="left"
         android:textColor="#000"
-        />
-
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:id="@+id/recyclerview1"
-        >
-
-    </androidx.recyclerview.widget.RecyclerView>
-    <TextView
         android:layout_marginTop="20sp"
-        android:id="@+id/noitieng"
+        android:layout_below="@id/dexuat"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/phobien"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nổi tiếng"
-        android:textSize="20dp"
-        android:layout_gravity="left"
-        android:textColor="#000"
-        />
+        android:id="@+id/recyclerview1"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
 <!--    <androidx.recyclerview.widget.RecyclerView-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="150dp"-->
 <!--        android:id="@+id/recyclerview2"-->
-<!--        >-->
-
-<!--    </androidx.recyclerview.widget.RecyclerView>-->
-</LinearLayout>
-
+<!--        ></androidx.recyclerview.widget.RecyclerView>-->
 
 </RelativeLayout>
