@@ -30,18 +30,7 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
         View itemView;
 
 itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.items,parent,false);
-        // Kiểm tra item view type, nếu là 1 thì inflate layout item_names.xml, 2 thì sử dụng item_names_female.
-//        switch (viewType) {
-//            case 1:
-//                itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_item, parent, false);
-//                break;
-//            case 2:
-//                itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_name_female, parent, false);
-//                break;
-//            default:
-//                itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_item, parent, false);
-//                break;
-//        }
+
         return new DataViewHolder(itemView);
     }
 
