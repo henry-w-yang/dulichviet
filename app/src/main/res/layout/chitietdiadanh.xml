@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/imageview"
+                android:src="@drawable/banner"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_below="@id/imageview"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Số mắc COVID-19 tiếp tục tăng, Việt Nam ghi nhận 121 ca
+Phạm Hiệp - 14:57 23/03/2020 GMT+7
+Suckhoedoisong.vn - 14h55', Bộ Y tế tiếp tục công bố thêm 3 ca bệnh mới nâng tổng số mắc bệnh COVID-19 ở Việt Nam lên 121 ca.
+Viện Pasteur TP. Hồ CHí Minh kết luận các mẫu bệnh phẩm của các bệnh nhân sau dương tính với virus SARS-CoV-2, cụ thể:
+l
+CA BỆNH 119 (BN119): Bệnh nhân nam, 29 tuổi, quốc tịch Mỹ, trú tại Quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân làm việc tại công ty tư vấn tài chính BCG, tầng 13 Mplaza Saigon, số 39, đường Lê Duẩn, phường Bến Nghé, Quận 1, TP. Hồ Chí Minh.
+
+Từ ngày 01/3/2020 đến ngày 15/3/2020, bệnh nhân thường xuyên di chuyển giữa Việt Nam, Indonesia, Thái Lan và về lại Việt Nam ngày 15/3/2020, không nhớ số hiệu và ngày giờ chuyến bay vào Việt Nam. Sau đó, bệnh nhân đi làm và có tới một số địa điểm ăn uống, giải trí, tập thể thao.
+
+Ngày 19/3/2020, bệnh nhân có sốt, ho, đau họng. Ngày 20/3/2020, bệnh nhân đến Bệnh viện FV khám và được nhập viện, cách ly, điều trị, lấy mẫu.
+
+CA BỆNH 120 (BN120): Bệnh nhân nam, quốc tịch Canada, 27 tuổi, trú tại Quận 2, TP. Hồ Chí Minh. Nghề nghiệp là giáo viên ngoại ngữ. Bệnh nhân là người tiếp xúc gần với BN91.
+
+Bệnh nhân từ Canada vào Việt Nam từ ngày 11/2/2020 đến nay. Trong quá trình lưu trú tại Việt Nam, bệnh nhân tiếp xúc trực tiếp với BN91 từ ngày 14/3/2020 tại một số quán ăn, nơi vui chơi, trong đó có quán Bar Buddha. Sau khi phát hiện BN91, bệnh nhân được đưa cách ly tập trung tại Quận 2 chiều ngày 19/3/2020 và lấy mẫu bệnh phẩm ngày 20/3/2020 - khi chưa có triệu chứng bệnh.
+
+Ngày 21/3/2020, bệnh nhân có sốt, ho khan, chuyển Bệnh viện Dã chiến Củ Chi cách ly, điều trị.
+
+CA BỆNH 121 (BN121): Bệnh nhân nam, 58 tuổi, trú tại Quận Tân Bình, TP. Hồ Chí Minh.
+
+Ngày 18/3/2020, bệnh nhân cùng vợ từ New York- Hoa Kỳ về Việt Nam, quá cảnh tại Narita - Nhật Bản trên chuyến bay của hãng hàng không ANA số hiệu NH831, số ghế 3H (chồng), 3K (vợ) và nhập cảnh tại Cảng hàng không quốc tế Tân Sơn Nhất ngày 19/3/2020.
+
+Bệnh nhân cùng vợ được chuyển về cách ly tại huyện Cần Giờ. Ngày 20/3/2020, bệnh nhân có sốt, không ho, không khó thở và được lấy mẫu. Hiện bệnh nhân tiếp tục được cách ly theo dõi tại Trung tâm y tế huyện Cần Giờ.
+
+
+
+Cũng trong sáng nay 23/3, Bộ Y tế cũng đã công bố thêm 5 ca mắc COVID-19.
+
+Như vậy tính đến thời điểm này, Việt Nam đã ghi nhận 121 ca mắc COVID-19. Có 17 trường hợp đã khỏi bệnh, chưa có trường hợp tử vong.
+
+Các bệnh nhân còn lại hiện đang được cách ly, điều trị tại các cơ sở y tế trong cả nước, trong đó có cả bệnh nhân đang điều trị tại trung tâm y tế huyện (bệnh nhân số 73 người Anh hiện điều trị tại Trung tâm y tế huyện Thanh Miện - tỉnh Hải Dương).
+
+Hiện cũng đã có 3 nhân viên y tế ở Việt Nam mắc bệnh, trong đó có 2 nữ điều dưỡng BV Bạch Mai và 1 bác sĩ cấp cứu BV Bệnh Nhiệt đới Trung ương.
+
+Tổng hợp về tình hình chung của các bệnh nhân đang điều trị ở các cơ sở y tế cho thấy, đa số tình trạng sức khỏe của các bệnh nhân ổn định, không sốt, không ho hoặc ho ít, không khó thở, X-Quang phổi bình thường; có một vài bệnh nhân có dấu hiệu viêm phổi (dấu hiệu trên phim X-Quang) và viêm phổi tiến triển đã được điều trị theo phác đồ điều trị viêm phổi.
+
+Tổng số trường hợp nghi ngờ đã loại trừ là 7.947. Tổng số trường hợp nghi ngờ đang theo dõi, cách ly là 645 (trong đó: số mới trong ngày: 586, số cũ đang theo dõi: 59).
+
+Tổng số người tiếp xúc gần và nhập cảnh từ vùng dịch đang được theo dõi sức khỏe (cách ly) là 52.790 (trong đó: cách ly tập trung tại bệnh viện: 1.376; cách ly tập trung tại cơ sở khác: 21.119; cách ly tại nhà, nơi lưu trú: 30.295).
+" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,5 +1,7 @@
 package com.travel.dulichviet;
 
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,11 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerview,recyclerview2;
+    private static SQLiteDatabase database;
+    private static final String DATABASE_NAME ="dulichviet.sqlite" ;
+    List<DiaDanh_Modles> listDiaDanh_noitieng,listDiaDanh_phobien;
+    public String phobien = "SELECT * FROM diadanh_phobien",noitieng = "SELECT * FROM diadanh_noitieng";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,43 +26,38 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerview = findViewById(R.id.recyclerview1);
         recyclerview2 = findViewById(R.id.recyclerview2);
+        ListNoiTieng(noitieng);
+        ListPhoBien(phobien);
 
-        // tạo mảng địa danh phổ biến
-            int[] Logo_DiadanhPB = {R.drawable.nhatrang,R.drawable.sapa, R.drawable.hoian,R.drawable.image003,R.drawable.banner,R.drawable.halng};
-            String [] Ten_DiadanhPB = {" Nha Trang","SaPa","Hội An","Hang Phượng Hoàng","Tràng An","Hạ Long"};
+    }
 
-        // cap phat va add vao mang phổ biến
-        List<DiaDanh_Modles> diaDanh_modles = new ArrayList<>();
-            for (int i = 0 ; i < Logo_DiadanhPB.length ; i ++)
-            {
-                DiaDanh_Modles modles = new DiaDanh_Modles(Logo_DiadanhPB[i],Ten_DiadanhPB[i]);
-                diaDanh_modles.add(modles);
-            }
-            // thiết kế list theo kiều ngang
-
-        LinearLayoutManager layoutManager = new LinearLayoutManager(
-                MainActivity.this,LinearLayoutManager.HORIZONTAL,false);
-        recyclerview.setLayoutManager(layoutManager);
-        recyclerview.setHasFixedSize(true);
-        recyclerview.setAdapter(new RecyclerDataAdapter(this, (ArrayList<DiaDanh_Modles>) diaDanh_modles));
-
-
-        // tạo mảng địa danh nổi tiếng
-        int[] Logo_DiadanhNT = {R.drawable.captreo,R.drawable.daophuquoc,R.drawable.nhahatlonhn,R.drawable.trangan,R.drawable.hue};
-        String [] Ten_DiadanhNT = {"Cáp treo Vinpearl","Đảo Phú Quốc","Nhà Hát lớn HN","Tràng An","Kinh Đô Huế"};
-
-// cấp phát và add vào mảng nổi tiếng
-        List<DiaDanh_Modles> datas = new ArrayList<>();
-        for (int j = 0 ; j < Logo_DiadanhNT.length ; j++)
-        {
-            DiaDanh_Modles modles1 = new DiaDanh_Modles(Logo_DiadanhNT[j],Ten_DiadanhNT[j] );
-            datas.add(modles1);
-        }
-        LinearLayoutManager layoutManager1 = new LinearLayoutManager(
-                MainActivity.this,LinearLayoutManager.HORIZONTAL,false);
-        recyclerview2.setLayoutManager(layoutManager1);
+    public void ListNoiTieng(String noitieng) {
+        listDiaDanh_noitieng = new ArrayList<>();
+        loadData(noitieng,listDiaDanh_noitieng);
+        LinearLayoutManager layoutManager2 = new LinearLayoutManager(MainActivity.this,LinearLayoutManager.HORIZONTAL,false);
+        recyclerview2.setLayoutManager(layoutManager2);
         recyclerview2.setHasFixedSize(true);
-        recyclerview2.setAdapter(new RecyclerDataAdapter(this,(ArrayList<DiaDanh_Modles>) datas));
+        recyclerview2.setAdapter(new RecyclerDataAdapter(this, listDiaDanh_noitieng));
+    }
+    public void ListPhoBien(String phobien) {
+        listDiaDanh_phobien = new ArrayList<>();
+        loadData(phobien,listDiaDanh_phobien);
+        LinearLayoutManager _layoutManager = new LinearLayoutManager(MainActivity.this,LinearLayoutManager.HORIZONTAL,false);
+        recyclerview.setLayoutManager(_layoutManager);
+        recyclerview.setHasFixedSize(true);
+        recyclerview.setAdapter(new RecyclerDataAdapter(this, listDiaDanh_phobien));
+    }
+
+    public void loadData(String noitieng,List<DiaDanh_Modles> listDiaDanh_phobien){
+        database = Database.initDatabase(this,DATABASE_NAME);
+        Cursor cursor = database.rawQuery(noitieng,null);
+        while (cursor.moveToNext()){
+            listDiaDanh_phobien.add(new DiaDanh_Modles(
+                    cursor.getInt(0),
+                    cursor.getBlob(3),
+                    cursor.getString(1)
+            ));
+        }
     }
 
 }
