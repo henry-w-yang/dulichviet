@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,6 +7,14 @@
     tools:context=".Chitietdiadanh">
 
         <ScrollView
+=======
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".Chitietdiadanh">
+<ScrollView
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scrollView"
@@ -35,6 +44,7 @@
                     android:text="Tên địa danh"
                     android:textStyle="bold"
                     />
+<<<<<<< HEAD
                 <LinearLayout
                     android:layout_marginTop="20dp"
                     android:layout_gravity="right"
@@ -61,6 +71,8 @@
                 </LinearLayout>
 
 
+=======
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
                 <TextView
                     android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
@@ -73,4 +85,8 @@
             </LinearLayout>
         </ScrollView>
 
+<<<<<<< HEAD
 </RelativeLayout>
+=======
+    </RelativeLayout>
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c

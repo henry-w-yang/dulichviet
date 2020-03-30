@@ -16,10 +16,17 @@ public class Database {
             File f = new File(outFileName);
             if(!f.exists()) {
                 InputStream e = activity.getAssets().open(databaseName);
+<<<<<<< HEAD
 //                File folder = new File(activity.getApplicationInfo().dataDir + "/databases/");
 //                if (!folder.exists()) {
 //                    folder.mkdir();
 //                }
+=======
+                File folder = new File(activity.getApplicationInfo().dataDir + "/databases/");
+                if (!folder.exists()) {
+                    folder.mkdir();
+                }
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
                 FileOutputStream myOutput = new FileOutputStream(outFileName);
                 byte[] buffer = new byte[1024];
 
@@ -27,6 +34,10 @@ public class Database {
                 while ((length = e.read(buffer)) > 0) {
                     myOutput.write(buffer, 0, length);
                 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
                 myOutput.flush();
                 myOutput.close();
                 e.close();
@@ -36,5 +47,8 @@ public class Database {
         }
         return activity.openOrCreateDatabase(databaseName, Context.MODE_PRIVATE, null);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 }

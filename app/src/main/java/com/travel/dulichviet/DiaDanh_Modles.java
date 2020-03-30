@@ -1,6 +1,7 @@
 package com.travel.dulichviet;
 
 public class DiaDanh_Modles {
+<<<<<<< HEAD
     int ID;
     byte[] Logo_Diadanh;
     String Ten_Diadanh;
@@ -13,6 +14,12 @@ public class DiaDanh_Modles {
         this.mota = mota;
     }
 
+=======
+    byte[] Logo_Diadanh;
+    String Ten_Diadanh;
+    int ID;
+
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
     public byte[] getLogo_Diadanh() {
         return Logo_Diadanh;
     }
@@ -20,11 +27,14 @@ public class DiaDanh_Modles {
     public String getTen_Diadanh() {
         return Ten_Diadanh;
     }
+<<<<<<< HEAD
 
     public String getMota() {
         return mota;
     }
 
+=======
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
     public int getid_DiaDanh() {
         return ID;
     }

@@ -1,11 +1,16 @@
 package com.travel.dulichviet;
 
 import android.content.Context;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
+=======
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,12 +39,17 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
     public RecyclerDataAdapter.DataViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView;
 
+<<<<<<< HEAD
         itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.items,parent,false);
+=======
+itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.items,parent,false);
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
         return new DataViewHolder(itemView);
     }
 
     @Override
     public void onBindViewHolder(RecyclerDataAdapter.DataViewHolder holder, int position) {
+<<<<<<< HEAD
         //tim ten va set ten
         String name = listDiaDanh.get(position).getTen_Diadanh();
         holder.tenDiaDanh.setText(name);
@@ -53,7 +63,16 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
         byte[]hinhAnh =diaDanh.getLogo_Diadanh();
         Bitmap bitmap = BitmapFactory.decodeByteArray(hinhAnh,0,hinhAnh.length);
         holder.logoDiaDanh.setImageBitmap(bitmap);
+=======
+        String name = listDiaDanh.get(position).getTen_Diadanh();
+        holder.tenDiaDanh.setText(name);
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 
+        DiaDanh_Modles diaDanh = listDiaDanh.get(position);
+
+        byte[]hinhAnh =diaDanh.getLogo_Diadanh();
+        Bitmap bitmap = BitmapFactory.decodeByteArray(hinhAnh,0,hinhAnh.length);
+        holder.logoDiaDanh.setImageBitmap(bitmap);
     }
 
     /**
@@ -64,6 +83,7 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
         private TextView tenDiaDanh;
         private ImageView logoDiaDanh;
         private int idItems;
+
 
         public DataViewHolder(View itemView) {
             super(itemView);

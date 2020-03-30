@@ -39,6 +39,15 @@
                         android:background="@drawable/icon_search" />
 
                 </LinearLayout>
+<<<<<<< HEAD
+=======
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginTop="-10dp"-->
+<!--                    android:src="@drawable/banner"-->
+<!--                    />-->
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
             </LinearLayout>
 
             <LinearLayout
@@ -58,6 +67,7 @@
                     android:text="Gợi ý cho bạn"
                     android:textColor="#F04747"
                     android:textStyle="italic" />
+<<<<<<< HEAD
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -86,10 +96,33 @@
 
                 <TextView
                     android:id="@+id/diadanh_noitieng"
+=======
+
+                <TextView
+                    android:id="@+id/diadanh_noitieng"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:layout_marginTop="5dp"
+                    android:text="Các địa điểm nổi tiếng"
+                    android:layout_marginLeft="20sp"
+                    android:textStyle="italic"
+                    android:textSize="15dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:id="@+id/diadanh_biendao"
+                    android:layout_marginLeft="20sp"
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+<<<<<<< HEAD
                     android:text="Các địa điểm nổi tiếng"
                     android:layout_marginLeft="20sp"
                     android:textStyle="italic"
@@ -118,5 +151,18 @@
                 </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
 
+=======
+                    android:text="Các biển-đảo nổi tiếng"
+                    android:textStyle="italic"
+                    android:textSize="15dp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 
 </RelativeLayout>

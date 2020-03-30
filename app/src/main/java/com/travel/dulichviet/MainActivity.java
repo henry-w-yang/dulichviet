@@ -1,6 +1,9 @@
 package com.travel.dulichviet;
 
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -21,6 +24,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerview,recyclerview2;
+<<<<<<< HEAD
     public SQLiteDatabase database;
     public String DATABASE_NAME ="dulichviets.sqlite" ;
     List<DiaDanh_Modles> listDiaDanh_noitieng,listDiaDanh_phobien;
@@ -31,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
     TextView xemtatca;
 
 //    public String DDanh[] = {"Hồ Núi Cốc","Bà Nà","Bãi Dài","Biển Bình Tiên","Côn Đảo","Cù Lao Chàm","Cù Lao Xanh","Đảo Phú Quốc","Đồng Tháp","Vịnh Hạ Long","Vũng Tàu","Vịnh Lan Hạ","Phong Nha-Kẻ Bàng","Cao nguyên đá Đồng Văn","Hang SonDoong","Ghềnh đá dĩa","Làng chài An Bằng","Thác Bản Giốc","Đèo Hải Vân","Mù Cang Chải","Mộc Châu","Đà Lạt","Sa Pa","Kinh Đô Huế","Tràng An","Phố cổ Hội An","Cáp treo Vinpearl Nha Trang","Nha Trang"};
+=======
+    private static SQLiteDatabase database;
+    private static final String DATABASE_NAME ="dulichviet.sqlite" ;
+    List<DiaDanh_Modles> listDiaDanh_noitieng,listDiaDanh_phobien;
+    public String phobien = "SELECT * FROM diadanh_phobien",noitieng = "SELECT * FROM diadanh_noitieng";
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         btnSearch = findViewById(R.id.btnsearch);
         recyclerview = findViewById(R.id.recyclerview1);
         recyclerview2 = findViewById(R.id.recyclerview2);
+<<<<<<< HEAD
         xemtatca = findViewById(R.id.xemall);
 
         Funtion_Search();
@@ -124,6 +135,41 @@ public void xemAll()
             recyclerview2.setHasFixedSize(true);
             recyclerview2.setAdapter(new RecyclerDataAdapter(this, listDiaDanh_phobien));
         }
+=======
+        ListNoiTieng(noitieng);
+        ListPhoBien(phobien);
+
+    }
+
+    public void ListNoiTieng(String noitieng) {
+        listDiaDanh_noitieng = new ArrayList<>();
+        loadData(noitieng,listDiaDanh_noitieng);
+        LinearLayoutManager layoutManager2 = new LinearLayoutManager(MainActivity.this,LinearLayoutManager.HORIZONTAL,false);
+        recyclerview2.setLayoutManager(layoutManager2);
+        recyclerview2.setHasFixedSize(true);
+        recyclerview2.setAdapter(new RecyclerDataAdapter(this, listDiaDanh_noitieng));
+    }
+    public void ListPhoBien(String phobien) {
+        listDiaDanh_phobien = new ArrayList<>();
+        loadData(phobien,listDiaDanh_phobien);
+        LinearLayoutManager _layoutManager = new LinearLayoutManager(MainActivity.this,LinearLayoutManager.HORIZONTAL,false);
+        recyclerview.setLayoutManager(_layoutManager);
+        recyclerview.setHasFixedSize(true);
+        recyclerview.setAdapter(new RecyclerDataAdapter(this, listDiaDanh_phobien));
+    }
+
+    public void loadData(String noitieng,List<DiaDanh_Modles> listDiaDanh_phobien){
+        database = Database.initDatabase(this,DATABASE_NAME);
+        Cursor cursor = database.rawQuery(noitieng,null);
+        while (cursor.moveToNext()){
+            listDiaDanh_phobien.add(new DiaDanh_Modles(
+                    cursor.getInt(0),
+                    cursor.getBlob(3),
+                    cursor.getString(1)
+            ));
+        }
+    }
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 
         public void loadData (String str, List < DiaDanh_Modles > listDiaDanh){
 

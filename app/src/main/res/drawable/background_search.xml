@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
 
 <corners
     android:radius="20dp"
 
+=======
+<corners
+    android:radius="20dp"
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
     />
 <stroke
     android:color="#000"
     android:width="2px"
     />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 <size
     android:width="300dp"
     android:height="30dp"

@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">DuLichViet</string>
     <string name="map_api_key">AIzaSyDlaL0qPm3EZy4nGTYRMcDIJ-mw53Q0TEg</string>
     <string name="title_activity_maps">Map</string>
+=======
+    <string name="app_name">dulichviet</string>
+>>>>>>> 2d5c1ad41669ed9f69b4fa0627614d9ff93d626c
 </resources>
